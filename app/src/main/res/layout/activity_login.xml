@@ -24,7 +24,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="0dp"
                 android:src="@drawable/logo2" />
 
             <TextView
@@ -62,7 +62,6 @@
                     android:hint="Email"
                     android:inputType="text"
                     android:padding="16dp"
-                    android:text="Email"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
                     tools:inputType="textPersonName" />
@@ -114,8 +113,8 @@
                     android:textColor="@color/white"
                     android:textSize="14sp" />
 
-                <Button
-                    android:id="@+id/button"
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/loginBtn"
                     style="@android:style/Widget.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
